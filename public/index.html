@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        Ruang Treatment
+       </title>
+       <script src="https://cdn.tailwindcss.com">
+       </script>
+       <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+       <link rel="stylesheet" href="style.css">
+      </head>
+      <body class="bg-white">
+       <div class="header">
+         <div class="text-center text-3xl font-bold italic mt-4" id="header">
+             RUANG TREATMENT L'VIORS PIK
+            </div>
+       </div>
+       <div class="flex justify-center mt-4">
+        <div id="status">
+          <p>Total Bed    : <span id="totalRooms">30</span></p>
+          <p>Bed Terpakai : <span id="usedRooms"></span></p>
+          <p>Sisa Bed     : <span id="availableRooms"></span></p>
+      </div>
+         </div>
+            <div class="flex mt-8">
+            <button class="w-[100px] bg-blue-300 px-4 py-2 mx-2" id="submitButton">Input Bt</button>
+            <button class="ml-[20px] w-[100px] bg-red-300 px-4 py-2 mx-2" id="clearButton" >Reset</button>
+            </div>       
+               
+       <div class="section-header mt-4">
+        LANTAI 2 & 3
+       </div>
+       <div class="flex justify-center flex-wrap mt-4" >
+        <div class="room bg-blue-100 w-32 h-20">
+         <div class="room-number" id="room">
+          201
+        </div>
+        <input class="w-[100px] mt-8 text-center" placeholder="Nama BT" id="bt">     
+         <img alt="Strawberry icon" class="icon" height="20" src="https://storage.googleapis.com/a1aa/image/0pUz43MFtrpRIB1u17QJeasJ9C9C6gz0CNO2Ju8FC1wm89zJA.jpg" width="20"/>
+        </div>
+        <div class="room bg-blue-100 w-32 h-20">
+         <div class="room-number" id="room">
+          202
+        </div>
+        <input class="w-[100px] mt-8 text-center" placeholder="Nama BT" id="bt">     
+        <img alt="Sun icon" class="icon" height="20" src="https://storage.googleapis.com/a1aa/image/MoNo8oCxysK5AlssByxumeLZeOZSbtV0rgtihesQky3Zy3PnA.jpg" width="20"/>
+        </div>
+        <div class="room bg-blue-100 w-32 h-20">
+         <div class="room-number" id="room">
+          204
+        </div>
+        <input class="w-[100px] mt-8 text-center" placeholder="Nama BT" id="bt">     
+         <img alt="Strawberry icon" class="icon" height="20" src="https://storage.googleapis.com/a1aa/image/0pUz43MFtrpRIB1u17QJeasJ9C9C6gz0CNO2Ju8FC1wm89zJA.jpg" width="20"/>
+        </div>
+        <div class="room bg-blue-100 w-32 h-20">
+         <div class="room-number" id="room">
+          301
+        </div>
+        <input class="w-[100px] mt-8 text-center" placeholder="Nama BT" id="bt">     
+        <img alt="Sun icon" class="icon" height="20" src="https://storage.googleapis.com/a1aa/image/MoNo8oCxysK5AlssByxumeLZeOZSbtV0rgtihesQky3Zy3PnA.jpg" width="20"/>
+        </div>
+        <div class="room bg-blue-100 w-32 h-20">
+         <div class="room-number" id="room">
+          301-B
+        </div>
+        <input class="w-[100px] mt-8 text-center" placeholder="Nama BT" id="bt">     
+        <img alt="Sun icon" class="icon" height="20" src="https://storage.googleapis.com/a1aa/image/MoNo8oCxysK5AlssByxumeLZeOZSbtV0rgtihesQky3Zy3PnA.jpg" width="20"/>
+        </div>
+        <div class="room bg-blue-200 w-32 h-20">
+         <div class="room-number">
+          302
+         </div>
+         <input class="w-[100px] mt-8 text-center " placeholder="Nama BT" id="bt">
+        </div>
+        <div class="room bg-red-100 w-32 h-20">
+         <div class="room-number">
+          303
+         </div>
+         <input class="w-[100px] mt-8 text-center " placeholder="Nama BT" id="bt">
+        </div>
+        <div class="room bg-red-200 w-32 h-20">
+         <div class="room-number">
+          304
+         </div>
+         <input class="w-[100px] mt-8 text-center " placeholder="Nama BT" id="bt">
+         <img alt="Avocado icon" class="icon" height="20" src="https://storage.googleapis.com/a1aa/image/V8KAFm88e0xFM6UeaeeDkKU0iBYhXnIHbouIRIOgdAm6kvfcC.jpg" width="20"/>
+        </div>
+        <div class="room bg-blue-300 w-32 h-20">
+         <div class="room-number">
+          305
+         </div>
+         <input class="w-[100px] mt-8 text-center " placeholder="Nama BT" id="bt">
+         <img alt="Peach icon" class="icon" height="20" src="https://storage.googleapis.com/a1aa/image/sSrJ3rZgsPLrO9c6ASyFlrHMYoPJhJsJkwSZvRWCfuQl89zJA.jpg" width="20"/>
+        </div>
+        <div class="room bg-yellow-100 w-32 h-20">
+         <div class="room-number">
+          306
+         </div>
+         <input class="w-[100px] mt-8 text-center " placeholder="Nama BT" id="bt">
+         <img alt="Sun icon" class="icon" height="20" src="https://storage.googleapis.com/a1aa/image/MoNo8oCxysK5AlssByxumeLZeOZSbtV0rgtihesQky3Zy3PnA.jpg" width="20"/>
+        </div>
+        <div class="room bg-yellow-200 w-32 h-20">
+         <div class="room-number">
+          307
+         </div>
+         <input class="w-[100px] mt-8 text-center " placeholder="Nama BT" id="bt">
+        </div>
+        <div class="room bg-gray-100 w-32 h-20">
+         <div class="room-number">
+          308
+         </div>
+         <input class="w-[100px] mt-8 text-center " placeholder="Nama BT" id="bt">
+         <img alt="Sun icon" class="icon" height="20" src="https://storage.googleapis.com/a1aa/image/MoNo8oCxysK5AlssByxumeLZeOZSbtV0rgtihesQky3Zy3PnA.jpg" width="20"/>
+        </div>
+        <div class="room bg-red-300 w-32 h-20">
+         <div class="room-number">
+          309
+         </div>
+         <input class="w-[100px] mt-8 text-center " placeholder="Nama BT" id="bt">
+        </div>
+        <div class="room bg-yellow-300 w-32 h-20">
+         <div class="room-number">
+          310
+         </div>
+         <input class="w-[100px] mt-8 text-center " placeholder="Nama BT" id="bt">
+         <img alt="Strawberry icon" class="icon" height="20" src="https://storage.googleapis.com/a1aa/image/0pUz43MFtrpRIB1u17QJeasJ9C9C6gz0CNO2Ju8FC1wm89zJA.jpg" width="20"/>
+        </div>
+        <div class="room bg-red-400 w-32 h-20">
+         <div class="room-number">
+          311
+         </div>
+         <input class="w-[100px] mt-8 text-center " placeholder="Nama BT" id="bt">
+        </div>
+        
+        <div class="room bg-yellow-400 w-32 h-20">
+         <div class="room-number">
+          313
+         </div>
+         <input class="w-[100px] mt-8 text-center " placeholder="Nama BT" id="bt">
+         <img alt="Peach icon" class="icon" height="20" src="https://storage.googleapis.com/a1aa/image/sSrJ3rZgsPLrO9c6ASyFlrHMYoPJhJsJkwSZvRWCfuQl89zJA.jpg" width="20"/>
+        </div>
+        <div class="room bg-green-100 w-32 h-20">
+         <div class="room-number">
+          314
+         </div>
+         <input class="w-[100px] mt-8 text-center " placeholder="Nama BT" id="bt">
+        </div>
+       </div>
+       <div class="section-header mt-4">
+        LANTAI 4
+       </div>
+       <div class="flex justify-center flex-wrap mt-4">
+        <div class="room bg-blue-100 w-32 h-20">
+         <div class="room-number">
+          401
+         </div>
+         <input class="w-[100px] mt-8 text-center " placeholder="Nama BT" id="bt">
+         <img alt="Strawberry icon" class="icon" height="20" src="https://storage.googleapis.com/a1aa/image/0pUz43MFtrpRIB1u17QJeasJ9C9C6gz0CNO2Ju8FC1wm89zJA.jpg" width="20"/>
+        </div>
+        <div class="room bg-blue-100 w-32 h-20">
+         <div class="room-number">
+          401-B
+         </div>
+         <input class="w-[100px] mt-8 text-center " placeholder="Nama BT" id="bt">
+         <img alt="Strawberry icon" class="icon" height="20" src="https://storage.googleapis.com/a1aa/image/0pUz43MFtrpRIB1u17QJeasJ9C9C6gz0CNO2Ju8FC1wm89zJA.jpg" width="20"/>
+        </div>
+        <div class="room bg-blue-200 w-32 h-20">
+         <div class="room-number">
+          402
+         </div>
+         <input class="w-[100px] mt-8 text-center " placeholder="Nama BT" id="bt">
+        </div>
+        <div class="room bg-red-100 w-32 h-20">
+         <div class="room-number">
+          403
+         </div>
+         <input class="w-[100px] mt-8 text-center " placeholder="Nama BT" id="bt">
+        </div>
+        <div class="room bg-red-200 w-32 h-20">
+         <div class="room-number">
+          404
+         </div>
+         <input class="w-[100px] mt-8 text-center " placeholder="Nama BT" id="bt">
+         <img alt="Avocado icon" class="icon" height="20" src="https://storage.googleapis.com/a1aa/image/V8KAFm88e0xFM6UeaeeDkKU0iBYhXnIHbouIRIOgdAm6kvfcC.jpg" width="20"/>
+        </div>
+        <div class="room bg-blue-300 w-32 h-20">
+         <div class="room-number">
+          405
+         </div>
+         <input class="w-[100px] mt-8 text-center " placeholder="Nama BT" id="bt">
+         <img alt="Peach icon" class="icon" height="20" src="https://storage.googleapis.com/a1aa/image/sSrJ3rZgsPLrO9c6ASyFlrHMYoPJhJsJkwSZvRWCfuQl89zJA.jpg" width="20"/>
+        </div>
+        <div class="room bg-yellow-100 w-32 h-20">
+         <div class="room-number">
+          406
+         </div>
+         <input class="w-[100px] mt-8 text-center " placeholder="Nama BT" id="bt">
+        </div>
+        <div class="room bg-yellow-200 w-32 h-20">
+         <div class="room-number">
+          407
+         </div>
+         <input class="w-[100px] mt-8 text-center " placeholder="Nama BT" id="bt">
+         <img alt="Sun icon" class="icon" height="20" src="https://storage.googleapis.com/a1aa/image/MoNo8oCxysK5AlssByxumeLZeOZSbtV0rgtihesQky3Zy3PnA.jpg" width="20"/>
+        </div>
+        <div class="room bg-gray-100 w-32 h-20">
+         <div class="room-number">
+          408
+         </div>
+         <input class="w-[100px] mt-8 text-center " placeholder="Nama BT" id="bt">
+         <img alt="Sun icon" class="icon" height="20" src="https://storage.googleapis.com/a1aa/image/MoNo8oCxysK5AlssByxumeLZeOZSbtV0rgtihesQky3Zy3PnA.jpg" width="20"/>
+        </div>
+        <div class="room bg-red-300 w-32 h-20">
+         <div class="room-number">
+          409
+         </div>
+         <input class="w-[100px] mt-8 text-center " placeholder="Nama BT" id="bt">
+        </div>
+        <div class="room bg-yellow-300 w-32 h-20">
+         <div class="room-number">
+          410
+         </div>
+         <input class="w-[100px] mt-8 text-center " placeholder="Nama BT" id="bt">
+         <img alt="Strawberry icon" class="icon" height="20" src="https://storage.googleapis.com/a1aa/image/0pUz43MFtrpRIB1u17QJeasJ9C9C6gz0CNO2Ju8FC1wm89zJA.jpg" width="20"/>
+        </div>
+        <div class="room bg-red-400 w-32 h-20">
+         <div class="room-number">
+          411
+         </div>
+         <input class="w-[100px] mt-8 text-center " placeholder="Nama BT" id="bt">
+        </div>
+        <div class="room bg-blue-400 w-32 h-20">
+         <div class="room-number">
+          412
+         </div>
+         <input class="w-[100px] mt-8 text-center " placeholder="Nama BT" id="bt">
+         <img alt="Avocado icon" class="icon" height="20" src="https://storage.googleapis.com/a1aa/image/V8KAFm88e0xFM6UeaeeDkKU0iBYhXnIHbouIRIOgdAm6kvfcC.jpg" width="20"/>
+        </div>
+       
+       </div>
+       <div class="header mt-[80px] text-center h-[30px]">
+         <p class="text-white">&copy; Copyright 
+             <script type="text/javascript">
+                 document.write(new Date().getFullYear());
+               </script> | Lviors Jaya Sentosa</p>
+       </div>
+     
+     
+       <script src="script.js"></script>
+       
+      </body>
+</html>
+
+
+
+

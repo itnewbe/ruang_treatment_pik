@@ -1,0 +1,92 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.header {
+  background-color: #e8b4b8;
+  height: 50px;
+  justify-content: center;
+  color: whitesmoke;
+  text-align: center;
+}
+.section-header {
+  background-color: #e8b4b8;
+  height: 30px;
+  text-align: center;
+  line-height: 30px;
+  font-weight: bold;
+}
+.room {
+  border: 1px solid #ccc;
+  position: relative;
+  padding: 10px;
+  margin: 5px;
+}
+
+.room.green {
+  background-color: green;
+}
+.room.red {
+  background-color: red;
+}
+
+#status {
+  display: flex;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  font-style: italic;
+  gap: 40px; /* Jarak antara elemen status */
+  font-size: 1.2em; /* Ukuran font yang lebih besar */
+}
+.room-number {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  font-size: 12px;
+  font-weight: bold;
+}
+.icon {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  width: 20px;
+  height: 20px;
+}
+/* Media query untuk responsivitas */
+
+/* PC dan Laptop */
+@media (min-width: 1201px) {
+  .col {
+    flex: 1 1 30%; /* Tiga kolom */
+  }
+}
+
+/* Laptop kecil */
+@media (max-width: 1200px) and (min-width: 992px) {
+  .col {
+    flex: 1 1 45%; /* Dua kolom */
+  }
+}
+
+/* Tablet */
+@media (max-width: 991px) and (min-width: 768px) {
+  .col {
+    flex: 1 1 100%; /* Satu kolom */
+  }
+}
+
+/* Ponsel */
+@media (max-width: 767px) {
+  body {
+    padding: 10px; /* Padding tambahan untuk ponsel */
+    font-size: 12px;
+  }
+  #header {
+    font-size: 20px;
+  }
+  #button {
+    margin-top: 10px;
+  }
+  .row {
+    flex-direction: column; /* Mengubah menjadi kolom */
+  }
+}
